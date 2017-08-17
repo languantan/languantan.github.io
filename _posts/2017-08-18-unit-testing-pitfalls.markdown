@@ -5,7 +5,7 @@ date:   2017-08-18 00:02:40 +0800
 categories: unit-testing, learning
 ---
 
-# Copy-pasta '_eh hello, you think u pastamania ah?_'
+### Copy-pasta '_eh hello, you think u pastamania ah?_'
 
 {% highlight ruby %}
 def colour_at(index)
@@ -21,7 +21,7 @@ Simple function to get the nth colour of the rainbow. A unit test for this can l
 
 {% highlight ruby %}
 describe '#colour_at' do
-  it 'should return first colour' do
+  it 'should return third colour' do
     expect(colour_at(3)).to eq '' # hmm, what value ah?
   end
 end
@@ -37,4 +37,17 @@ Failure/Error: expect(colour_at(3)).to eq ''
     got 'blue'
 {% endhighlight %}
 
-If you really are that lazy, and copy this into the code above.. well, your test will pass but we all know why it passed..
+### #copypasta
+{% highlight ruby %}
+describe '#colour_at' do
+  it 'should return third colour' do
+    expect(colour_at(3)).to eq 'blue'
+  end
+end
+{% endhighlight %}
+{% highlight shell %}
+1 example(s), 0 failures.
+{% endhighlight %}
+
+think about it. if not guilty, move on!
+<hr>
