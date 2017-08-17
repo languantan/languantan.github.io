@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Unit Test Pitfalls"
+title:  "Unit Testing Pitfalls"
 date:   2017-08-18 00:02:40 +0800
 categories: unit-testing, learning
 ---
@@ -27,7 +27,7 @@ describe '#colour_at' do
 end
 {% endhighlight %}
 
-When writing the expected result, you might be assume code is right/lazy to count rainbow/not know the colours of the rainbow...(don't judge)
+When writing the expected result, you might assume code is right/lazy to count rainbow/not know the colours of the rainbow...(don't judge)
 <br />
 so you go ahead run the test and u get..
 
