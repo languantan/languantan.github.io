@@ -2,13 +2,10 @@
 
 My personal page at https://languantan.github.io set up by Jekyll.
 
-## tldr;
-Install Jekyll
+## How-to use?
+- `gem install jekyll`
+- `bundle exec jekyll serve`
 
-Just update the md files or add stuff into _posts
-
-Then, run `jekyll serve`
-
-# Setup instructions
-
-Read: https://jekyllrb.com/docs/quickstart/
+## To write posts
+- Just add/update the .md files in the _posts folder for the articles
+- Store any asset in `assets/`
