@@ -2,7 +2,7 @@
 layout: post
 title:  "Unit Testing Pitfalls"
 date:   2017-08-18 00:02:40 +0800
-categories: unit-testing, learning
+categories: unit-testing learning
 ---
 
 ### Copy-pasta '_eh hello, you think u pastamania ah?_'

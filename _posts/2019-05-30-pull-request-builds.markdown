@@ -2,7 +2,7 @@
 layout: post
 title:  "Faster Feedbacks, how fast is fast?"
 date:   2019-05-30 01:49:00 +0800
-categories: devops, pull-requests
+categories: devops pull-requests
 ---
 
 ## Pain points
