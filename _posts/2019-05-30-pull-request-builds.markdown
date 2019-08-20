@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Faster Feedbacks, how fast is fast?"
+title:  "Faster Feedbacks for pull requests"
 date:   2019-05-30 01:49:00 +0800
-categories: devops pull-requests
+categories: [devops, pull-requests]
+excerpt_separator: <!--more-->
 ---
 
-## Pain points
-
-<p> Recently, I have been talking to many people about product and they have all told me the adage, "You have to solve a pain point first." So let start with the pain point/s. </p>
+<p> Recently, we re-introduced pull requests as a form of sharing knowledge in the team. But it came with its own set of pains </p>
+<!--more-->
 
 1. Shared build agent, often led to queues. Worse when agent is hung.
 > ![bamboo-queued-job](/assets/20190530/queued.png){:width="400px"}

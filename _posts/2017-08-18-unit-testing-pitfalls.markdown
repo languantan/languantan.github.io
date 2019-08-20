@@ -2,26 +2,24 @@
 layout: post
 title:  "Unit Testing Pitfalls"
 date:   2017-08-18 00:02:40 +0800
-categories: unit-testing learning
+categories: [unit-testing, learning]
+excerpt_separator: <!--more-->
 ---
-
-### Copy-pasta '_eh hello, you think u pastamania ah?_'
-
+Simple function to get the nth colour of the rainbow.
 {% highlight ruby %}
 def colour_at(index)
   colours = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
-  colours[index+1] # super contrived example to show bad logic
+  colours[index]
 end
 {% endhighlight %}
 
-<br />
-
-Simple function to get the nth colour of the rainbow. A unit test for this can look like this
+<!--more-->
+A unit test for this can look like this
 
 {% highlight ruby %}
 describe '#colour_at' do
-  it 'should return third colour' do
+  it 'should return third colour of rainbow' do
     expect(colour_at(3)).to eq '' # hmm, what value ah?
   end
 end
@@ -34,14 +32,14 @@ so you go ahead run the test and u get..
 {% highlight shell %}
 Failure/Error: expect(colour_at(3)).to eq ''
     expected ''
-    got 'blue'
+    got 'green'
 {% endhighlight %}
 
 ### #copypasta
 {% highlight ruby %}
 describe '#colour_at' do
-  it 'should return third colour' do
-    expect(colour_at(3)).to eq 'blue'
+  it 'should return third colour of rainbow' do
+    expect(colour_at(3)).to eq 'green'
   end
 end
 {% endhighlight %}
