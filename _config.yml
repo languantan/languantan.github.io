@@ -18,7 +18,6 @@ github_username:  languantan
 # Build settings
 markdown: kramdown
 remote_theme: thelehhman/plainwhite-jekyll
-theme: plainwhite
 show_excerpts: true
 plugins:
   - jekyll-seo-tag
